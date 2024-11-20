@@ -3,11 +3,12 @@ Model and Predict the best poker move to make based on simulated/historic games.
 Dylan Fear, Wesley Castro, Kyle Syron, Sayeda Tasnim
 **Directions**
 To run the code:
-1. Run all the python packages in the first cell
+1.Open the Final_Project.ipynb file and download the poker_ranking.jgp to the same directiory
+1. Run all the python packages in the first cell 
 2. Run each cell in order till section 2.3
-3. If you can to change the number of n_simulations to see how the number of entries can effect the models
+3. If you want to change the number of n_simulations to see how the number of entries can effect the models
 4. Run section 3 in order to see models(go back and changed n_simulations if you want)
-5. Run section 4 to see random hand and the probability that you should check or fold
+5. Run section 4 to see random hand and the probability that you should check or fold compare the hand rank to see what hand you have
 **ABSTRACT**
 
 The project created is, "Model and Predict Best Poker Move to Make Based on Simulated/Historic Games". It aims to develop a computational model that evaluates poker hands and recommends the optimal move to make based on simulated game data. By leveraging the hierarchical structure of poker hand rankings and analyzing gameplay probabilities, our goal is to provide the best possible move for the player at any given moment in the game. This project implements a simulation-based approach to poker gameplay while focusing on modeling, ranking, and predicting the optimal poker hands. 
