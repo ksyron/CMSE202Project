@@ -34,9 +34,7 @@ Our methodology integrated rule-based logic and data-driven approaches. The meth
 
 This project develops a machine-learning model to predict the best poker move (check or fold) based on hand rankings, leveraging simulated data for training and evaluation. The machine learning model uses a logistic regression classifier with the model being trained on poker hand ranking data. The analysis reveals that higher-ranked hands correlate strongly with a higher likelihood of checking, while lower-ranked hands favor folding. 
 
- 
 
-The model demonstrates a classification accuracy of 95%, with a precision, recall and f-1 score of 0.96 for "fold" decisions and a precision, recall and f-1 score of 0.94 for “check”. Example predictions align with logical poker strategies, showing you should most likely fold with a hand of “10 of Clubs”, “3 of Hearts” and the house being “2 of Hearts”, “King of Spades”, “7 of Diamonds”, “Jack of Hearts” and ”4 of Clubs”. 
 
  
 
@@ -48,4 +46,4 @@ The discussion addresses challenges such as computational overhead from extensiv
 
  
 
-In conclusion, this project offers a slightly simplified framework for evaluating poker hands and recommending optimal moves. It combines statistical rigor with practical application, laying the groundwork for analyses in poker strategy. Future work involves game theory, real-time decision-making and expanding the scope to multiplayer dynamics. This model provides a scalable framework for both educational purposes and practical applications in game strategy analysis. 
+In conclusion, this project offers a slightly simplified framework for evaluating poker hands and recommending optimal moves. The model demonstrates a classification accuracy of 95%, with a precision, recall and f-1 score of 0.96 for "fold" decisions and a precision, recall and f-1 score of 0.94 for “check”. Example predictions align with logical poker strategies, showing you should most likely fold with a hand of “10 of Clubs”, “3 of Hearts” and the house being “2 of Hearts”, “King of Spades”, “7 of Diamonds”, “Jack of Hearts” and ”4 of Clubs”. Future work involves game theory, real-time decision-making and expanding the scope to multiplayer dynamics. This model provides a scalable framework for both educational purposes and practical applications in game strategy analysis. 
